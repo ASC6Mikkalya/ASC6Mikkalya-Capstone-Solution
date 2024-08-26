@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "743d83f3-b329-41f3-83dc-f2d97da1e09e",
+		"name": "MS-02-Admin-ATS-postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37369785"
+	},
+	"item": [
+		{
+			"name": "admin/AD0001",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Mikkalya\",\r\n    \"emailId\":\"miks662003@gmail.com\",\r\n    \"password\":\"Miks@123\",\r\n    \"phoneNumber\":\"8217998216\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8011/ats/api/admin"
+			},
+			"response": []
+		},
+		{
+			"name": "admin/AD0002",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Arshiya\",\r\n    \"emailId\":\"arshiya@gmail.com\",\r\n    \"password\":\"Arshi@123\",\r\n    \"phoneNumber\":\"9217908216\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8011/ats/api/admin"
+			},
+			"response": []
+		},
+		{
+			"name": "admin/AD0003",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Hemalatha\",\r\n    \"emailId\":\"hema@gmail.com\",\r\n    \"password\":\"Hema@123\",\r\n    \"phoneNumber\":\"8217908206\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8011/ats/api/admin"
+			},
+			"response": []
+		},
+		{
+			"name": "admin/AD0004",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Satheesh\",\r\n    \"emailId\":\"satheesh@gmail.com\",\r\n    \"password\":\"Satheesh@123\",\r\n    \"phoneNumber\":\"8217908209\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8011/ats/api/admin"
+			},
+			"response": []
+		},
+		{
+			"name": "admin/AD0005",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Babu\",\r\n    \"emailId\":\"babu@gmail.com\",\r\n    \"password\":\"Babu@123\",\r\n    \"phoneNumber\":\"8219808209\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8011/ats/api/admin"
+			},
+			"response": []
+		},
+		{
+			"name": "admin/AD0006",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Suganya\",\r\n    \"emailId\":\"suganya@gmail.com\",\r\n    \"password\":\"Suganya@123\",\r\n    \"phoneNumber\":\"8219808959\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8011/ats/api/admin"
+			},
+			"response": []
+		},
+		{
+			"name": "admin/AD0007",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"Natarajan\",\r\n    \"emailId\":\"natarajan@gmail.com\",\r\n    \"password\":\"Natraj@123\",\r\n    \"phoneNumber\":\"9219808879\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8011/ats/api/admin"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "0903840e-2c7b-41ef-95c8-00fa328e0867",
+		"name": "MS-06-FeignClient-ATS-postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37369785"
+	},
+	"item": [
+		{
+			"name": "login/AD0001",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailId\":\"miks662003@gmail.com\",\r\n    \"password\":\"Miks@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8001/ats/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "login/AD0002",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailId\":\"arshiya@gmail.com\",\r\n    \"password\":\"Arshi@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8001/ats/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "login/AD0003",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailId\":\"hema@gmail.com\",\r\n    \"password\":\"Hema@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8001/ats/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "login/AD0004",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailId\":\"satheesh@gmail.com\",\r\n    \"password\":\"Satheesh@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8001/ats/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "login/AD0005",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailId\":\"babu@gmail.com\",\r\n    \"password\":\"Babu@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8001/ats/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "login/AD0006",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailId\":\"suganya@gmail.com\",\r\n    \"password\":\"Suganya@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8001/ats/api/login"
+			},
+			"response": []
+		},
+		{
+			"name": "login/AD0007",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailId\":\"natarajan@gmail.com\",\r\n    \"password\":\"Natraj@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8001/ats/api/login"
+			},
+			"response": []
+		}
+	]
+}

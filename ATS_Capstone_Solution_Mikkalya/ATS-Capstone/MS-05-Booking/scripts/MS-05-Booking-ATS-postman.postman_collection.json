@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "0800eeff-804e-464b-bbf8-16cc4527b81b",
+		"name": "MS-05-Booking-ATS-postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37369785"
+	},
+	"item": [
+		{
+			"name": "booking",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8041/ats/api/booking"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0001",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"passengerName\":\"Mikkalya\",\r\n    \"seatNumber\":23,\r\n    \"ticketCost\":2600,\r\n    \"departureDate\":\"6 Sep 2024\",\r\n    \"departureTime\":\"4:30 PM\",\r\n    \"arrivalDate\":\"6 Sep 2024\",\r\n    \"arrivalTime\":\"10 PM\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0002",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"passengerName\":\"John Doe\",\r\n    \"seatNumber\":12,\r\n    \"ticketCost\":500,\r\n    \"departureDate\":\"2024-09-01\",\r\n    \"departureTime\":\"08:30 AM\",\r\n    \"arrivalDate\":\"2024-09-01\",\r\n    \"arrivalTime\":\"12:30 PM\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0003",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"passengerName\":\"Jane Smith\",\r\n    \"seatNumber\":25,\r\n    \"ticketCost\":450,\r\n    \"departureDate\":\"2024-09-02\",\r\n    \"departureTime\":\"09:00 AM\",\r\n    \"arrivalDate\":\"2024-09-02\",\r\n    \"arrivalTime\":\"01:00 PM\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0004",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"passengerName\":\"Michael Brown\",\r\n    \"seatNumber\":36,\r\n    \"ticketCost\":600,\r\n    \"departureDate\":\"2024-09-03\",\r\n    \"departureTime\":\"07:45 AM\",\r\n    \"arrivalDate\":\"2024-09-03\",\r\n    \"arrivalTime\":\"11:45 AM\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0005",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"passengerName\":\"Emily Davis\",\r\n    \"seatNumber\":14,\r\n    \"ticketCost\":520,\r\n    \"departureDate\":\"2024-09-04\",\r\n    \"departureTime\":\"06:30 AM\",\r\n    \"arrivalDate\":\"2024-09-04\",\r\n    \"arrivalTime\":\"10:30 AM\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0006",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"passengerName\":\"Chris Wilson\",\r\n    \"seatNumber\":19,\r\n    \"ticketCost\":480,\r\n    \"departureDate\":\"2024-09-05\",\r\n    \"departureTime\":\"08:00 AM\",\r\n    \"arrivalDate\":\"2024-09-05\",\r\n    \"arrivalTime\":\"12:00 PM\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0001",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking/BO0001"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0002",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking/BO0002"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0003",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking/BO0003"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0004",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking/BO0004"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0005",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking/BO0005"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0006",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking/BO0006"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0006",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking/BO0006"
+			},
+			"response": []
+		},
+		{
+			"name": "booking/BO0001",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"BO0001\",\r\n    \"ticketCost\":350,\r\n    \"departureDate\":\"2024-09-06\",\r\n    \"departureTime\":\"09:15 AM\",\r\n    \"arrivalDate\":\"2024-09-06\",\r\n    \"arrivalTime\":\"01:15 PM\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8041/ats/api/booking"
+			},
+			"response": []
+		}
+	]
+}

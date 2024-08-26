@@ -1,0 +1,316 @@
+{
+	"info": {
+		"_postman_id": "7e340a29-a7fe-4b2e-aafd-b7de790824c2",
+		"name": "MS-03-Plane-ATS-postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37369785"
+	},
+	"item": [
+		{
+			"name": "plane/PL0001",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8021/ats/api/plane/PL0001"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0002",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8021/ats/api/plane/PL0002"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0003",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8021/ats/api/plane/PL0003"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0004",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8021/ats/api/plane/PL0004"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0005",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8021/ats/api/plane/PL0005"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0006",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8021/ats/api/plane/PL0006"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0007",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8021/ats/api/plane/PL0007"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0008",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8021/ats/api/plane/PL0008"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0009",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8021/ats/api/plane/PL0009"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0010",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8021/ats/api/plane/PL0010"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0001",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"model\":\"Boeing 747\",\r\n    \"manufacturer\":\"Boeing\",\r\n    \"image\":\"boeing_747.jpg\",\r\n    \"seatingCapacity\":410\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8021/ats/api/plane"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0002",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"model\":\"Airbus A380\",\r\n    \"manufacturer\":\"Airbus\",\r\n    \"image\":\"airbus_a380.jpg\",\r\n    \"seatingCapacity\":555\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8021/ats/api/plane"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0003",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"model\":\"Embraer E190\",\r\n    \"manufacturer\":\"Embraer\",\r\n    \"image\":\"embraer_e190.jpg\",\r\n    \"seatingCapacity\":114\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8021/ats/api/plane"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0004",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"model\":\"Bombardier Q400\",\r\n    \"manufacturer\":\"Bombardier\",\r\n    \"image\":\"bombardier_q400.jpg\",\r\n    \"seatingCapacity\":78\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8021/ats/api/plane"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0005",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"model\":\"Cessna 172\",\r\n    \"manufacturer\":\"Cessna\",\r\n    \"image\":\"cessna_172.jpg\",\r\n    \"seatingCapacity\":54\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8021/ats/api/plane"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0006",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"model\":\"Lockheed C-130 Hercules\",\r\n    \"manufacturer\":\"Lockheed Martin\",\r\n    \"image\":\"lockheed_c130.jpg\",\r\n    \"seatingCapacity\":128\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8021/ats/api/plane"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0007",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"model\":\"Gulfstream G650\",\r\n    \"manufacturer\":\"Gulfstream Aerospace\",\r\n    \"image\":\"gulfstream_g650.jpg\",\r\n    \"seatingCapacity\":82\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8021/ats/api/plane"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0008",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"model\":\"Dassault Falcon 7X\",\r\n    \"manufacturer\":\"Dassault Aviation\",\r\n    \"image\":\"dassault_falcon7x.jpg\",\r\n    \"seatingCapacity\":47\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8021/ats/api/plane"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0009",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"model\":\"Antonov An-225\",\r\n    \"manufacturer\":\"Antonov\",\r\n    \"image\":\"antonov_an225.jpg\",\r\n    \"seatingCapacity\":160\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8021/ats/api/plane"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0010",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"model\":\"Mitsubishi MRJ90\",\r\n    \"manufacturer\":\"Mitsubishi Aircraft Corporation\",\r\n    \"image\":\"mitsubishi_mrj90.jpg\",\r\n    \"seatingCapacity\"92\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8021/ats/api/plane"
+			},
+			"response": []
+		},
+		{
+			"name": "plane",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8021/ats/api/plane"
+			},
+			"response": []
+		},
+		{
+			"name": "delete/PL0002",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8021/ats/api/plane/PL0002"
+			},
+			"response": []
+		},
+		{
+			"name": "plane/PL0001",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"PL0001\",\r\n    \"seatingCapacity\":654\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8021/ats/api/plane"
+			},
+			"response": []
+		}
+	]
+}

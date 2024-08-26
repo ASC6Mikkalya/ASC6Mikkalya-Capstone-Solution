@@ -1,0 +1,463 @@
+{
+	"info": {
+		"_postman_id": "7b76a276-29b1-4ef6-a818-8a289c5cef90",
+		"name": "MS-04-Airport-ATS-postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37369785"
+	},
+	"item": [
+		{
+			"name": "airport",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0001",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"airportName\":\"Los Angeles International Airport\",\r\n    \"city\":\"Los Angeles\",\r\n    \"country\":\"USA\",\r\n    \"countryCode\":\"US\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0002",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"airportName\":\"Indira Gandhi International Airport\",\r\n    \"city\":\"New Delhi\",\r\n    \"country\":\"India\",\r\n    \"countryCode\":\"IN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0003",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"airportName\":\"Chennai International Airport\",\r\n    \"city\":\"Chennai\",\r\n    \"country\":\"India\",\r\n    \"countryCode\":\"IN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0004",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"airportName\":\"Chhatrapati Shivaji Maharaj International Airport\",\r\n    \"city\":\"Mumbai\",\r\n    \"country\":\"India\",\r\n    \"countryCode\":\"IN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0005",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"airportName\":\"Heathrow Airport\",\r\n    \"city\":\"London\",\r\n    \"country\":\"United Kingdom\",\r\n    \"countryCode\":\"UK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0006",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"airportName\":\"John F. Kennedy International Airport\",\r\n    \"city\":\"New York\",\r\n    \"country\":\"United States\",\r\n    \"countryCode\":\"US\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0007",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"airportName\":\"Kempegowda International Airport\",\r\n    \"city\":\"Bangalore\",\r\n    \"country\":\"India\",\r\n    \"countryCode\":\"IN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0008",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"airportName\":\"Hare International Airport\",\r\n    \"city\":\"Chicago\",\r\n    \"country\":\"United States\",\r\n    \"countryCode\":\"US\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0009",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"airportName\":\"Manchester Airport\",\r\n    \"city\":\"Manchester\",\r\n    \"country\":\"United Kingdom\",\r\n    \"countryCode\":\"UK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0010",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"airportName\":\"Rajiv Gandhi International Airport\",\r\n    \"city\":\"Hyderabad\",\r\n    \"country\":\"India\",\r\n    \"countryCode\":\"IN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0011",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"airportName\":\"Glasgow Airport\",\r\n    \"city\":\"Glasgow\",\r\n    \"country\":\"United Kingdom\",\r\n    \"countryCode\":\"UK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0001",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport/AP0001"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0002",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport/AP0002"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0003",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport/AP0003"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0004",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport/AP0004"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0005",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport/AP0005"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0006",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport/AP0006"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0007",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport/AP0007"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0008",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport/AP0008"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0009",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport/AP0009"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0010",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport/AP0010"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0010",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport/AP0010"
+			},
+			"response": []
+		},
+		{
+			"name": "airport/AP0009",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"AP0009\",\r\n    \"airportName\":\"Manchester Airport\",\r\n    \"city\":\"Manchester\",\r\n    \"country\":\"United States\",\r\n    \"countryCode\":\"US\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8031/ats/api/airport"
+			},
+			"response": []
+		}
+	]
+}
